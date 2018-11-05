@@ -70,7 +70,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 
         // Undefined, 0, null or "" are COERCED to false
         // Anything else is COERCED to true
-        var input = parseFloat(document.querySelector('.final-score').value);
+        var input = parseInt(document.querySelector('.final-score').value);
         var winningScore;
         // test input Log
         console.log(input);
